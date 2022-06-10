@@ -1,0 +1,16 @@
+{
+    "name": "myaction",
+    "title": "My Action",
+    "icon": "${url:~theme/modules/mymodule/src/MyAction/icon.svg}",
+    "fields": {
+        "name": {
+            "label": "Name",
+            "description": "A name to identify this action."
+        },
+        "content": {
+            "type": "editor",
+            "mode": "text/html",
+            "label": "Content"
+        }
+    }
+}
